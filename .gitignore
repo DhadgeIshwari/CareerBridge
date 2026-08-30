@@ -1,4 +1,4 @@
-﻿target/
+target/
 build/
 bin_check/
 .settings/
@@ -7,4 +7,26 @@ bin_check/
 .project
 *.class
 
+# Application dependency JARs
 src/main/webapp/WEB-INF/lib/*.jar
+
+# Logs
+*.log
+
+# Package files
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+# BlueJ
+*.ctxt
+
+# Mobile Tools for Java
+.mtj.tmp/
