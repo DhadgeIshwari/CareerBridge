@@ -1,0 +1,10 @@
+﻿target/
+build/
+bin_check/
+.settings/
+.metadata/
+.classpath
+.project
+*.class
+
+src/main/webapp/WEB-INF/lib/*.jar

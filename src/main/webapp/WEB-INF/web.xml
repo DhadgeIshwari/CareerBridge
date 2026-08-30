@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="6.0">
+  <display-name>CareerAssistClean</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <session-config><session-timeout>30</session-timeout></session-config>
+  <context-param><param-name>db.url</param-name><param-value>jdbc:mysql://localhost:3306/career_assist_db?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC</param-value></context-param>
+  <context-param><param-name>db.user</param-name><param-value>root</param-value></context-param>
+  <context-param><param-name>db.password</param-name><param-value></param-value></context-param>
+  <!-- Adzuna: https://developer.adzuna.com/ — also uses RemoteOK + WeWorkRemotely (no keys) -->
+  <context-param><param-name>adzuna.app_id</param-name><param-value>598fced0</param-value></context-param>
+  <context-param><param-name>adzuna.app_key</param-name><param-value>6598583db968488dcf5642cbad6e9b3b</param-value></context-param>
+  <context-param><param-name>adzuna.country</param-name><param-value>in</param-value></context-param>
+</web-app>
